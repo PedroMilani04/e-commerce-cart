@@ -29,6 +29,7 @@ body {
   background: rgb(231, 226, 221);
   z-index: 1;
 }
+
 .navbar-center {
   width: 100%;
   max-width: 1170px;
@@ -172,6 +173,14 @@ body {
 
 /* ---------------End of Products ---------------- */
 /* --------------- Cart ---------------- */
+.testp {
+  display: flex;
+  flex-direction: column;
+}
+.item-amount {
+  font-style: normal;
+
+}
 .cart-overlay {
   position: fixed;
   top: 0;
@@ -195,6 +204,7 @@ body {
   padding: 1.5rem;
   transition: var(--mainTransition);
   transform: translateX(100%);
+  overflow-y: hidden;
 }
 .showCart {
   transform: translateX(0);
@@ -278,5 +288,11 @@ body {
 
   html {
     overflow-x: hidden;
+  }
+}
+
+@media(max-width: 320px) {
+  .banner-title {
+    font-size: 2.5rem;
   }
 }
