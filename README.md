@@ -41,7 +41,7 @@ Also included are some npm libraries, such as nookies, react-modal, and remask. 
 ## How to Run
 Clone this repository:
 
-    git clone https://github.com/PedroMilani04/pedro-portfolio.git
+    git clone https://github.com/PedroMilani04/e-commerce-cart.git
     
 Have Node.js installed on your computer. With the terminal opened in the project folder, install the dependencies:
 
